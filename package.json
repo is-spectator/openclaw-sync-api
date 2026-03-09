@@ -1,0 +1,28 @@
+{
+  "name": "openclaw-sync-api",
+  "version": "1.0.0",
+  "description": "Expose OpenClaw AI as a synchronous HTTP REST API",
+  "main": "src/api-server.js",
+  "scripts": {
+    "start": "node src/api-server.js",
+    "test": "python3 tests/test_api.py",
+    "dev": "node --watch src/api-server.js"
+  },
+  "keywords": [
+    "openclaw",
+    "ai",
+    "api",
+    "http",
+    "rest",
+    "chatbot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YOUR_USERNAME/openclaw-sync-api.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
